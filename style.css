@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container{
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section{
+    /* padding: 60px 0; */
+}
+ul li {
+    list-style-type: none;
+}
+/*---------------------------
+Header css
+-----------------------------*/
+header{
+    width: 100%;
+    height: 65px;
+    box-shadow: 3px 3px 13px #00000011;
+    display: flex;
+    align-items: center;
+}
+
+/*---------------------------
+mainContent css
+-----------------------------*/
+.mainContent{
+    display: flex;
+}
+
+aside{
+    /* background: #000; */
+    width: 250px;
+    height: calc(100vh - 65px);
+}
+
+aside #allCountryName{
+    padding: 20px 0;
+    height: 100%;
+    overflow-y: auto;
+}
+#allCountryName li{
+    background: rgb(3, 100, 165);
+    margin: 10px 0;
+    padding: 13px 8px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.singleCountry{
+    background: rgba(255, 0, 0, 0.062);
+    width: calc(100% - 250px);
+}
+.singleCountry #displaySingleCountry{
+    padding: 20px 0;
+}
